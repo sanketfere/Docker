@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('1. checkout'){
             steps{
-                git url:'https://gitlab.siescoms.in/mca25020/devops_practical.git',branch:'main'
+                git url:'https://github.com/sanketfere/Docker.git',branch:'main'
             }
         }
 
